@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 fib = []
 fib_even = []
 a = 0
@@ -28,3 +30,4 @@ for i in fib_even:
 
 print('--------------------------')
 print('sum = ' + str(sum))
+

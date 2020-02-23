@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 
 nums = []
 
@@ -7,11 +8,4 @@ for num in range(1,1000):
         nums.append(num)
         #print(num)
 
-#print(nums)
-
-suma = 0
-
-for num in nums:
-    suma = suma + num
-
-print(suma)
+print(sum(nums))
